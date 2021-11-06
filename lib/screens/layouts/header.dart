@@ -30,7 +30,7 @@ class Header extends StatelessWidget {
               ),
             if (!Responsive.isMobile(context))
               Text(
-                "F9 Technologies Project",
+                "F9 Info Technologies Pvt. Ltd.",
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: 20,

@@ -47,7 +47,7 @@ class _SideMenuState extends State<SideMenu> {
                   backgroundColor: Color(0xFFfafafa),
                   headerBuilder: (context, isExpanded) {
                     return ListTile(
-                      title: Text('Event'),
+                      title: Text('Events'),
                       leading: Icon(
                         Icons.event,
                         color: Colors.black,
@@ -203,8 +203,7 @@ class _SideMenuState extends State<SideMenu> {
                       ListTile(
                         title: Text('Categories'),
                         leading: Icon(
-                          Icons.account_tree,
-                          color: Colors.black,
+                          Icons.account_tree
                         ),
                         onTap: () {},
                       ),
@@ -216,7 +215,7 @@ class _SideMenuState extends State<SideMenu> {
                   backgroundColor: Color(0xFFfafafa),
                   headerBuilder: (context, isExpanded) {
                     return ListTile(
-                      title: Text('Management'),
+                      title: Text('Blog'),
                       leading: Icon(
                         Icons.group_add_rounded,
                         color: Colors.black,
