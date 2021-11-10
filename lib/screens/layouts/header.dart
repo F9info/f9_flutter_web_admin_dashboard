@@ -86,7 +86,7 @@ class ProfileCard extends StatelessWidget {
                     SizedBox(
                       width: 10,
                     ),
-                    Text('Prasad F9'),
+                    Text('Prasad F9 Tech'),
                   ],
                 ),
               ),
