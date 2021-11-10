@@ -18,7 +18,7 @@ class _SideMenuState extends State<SideMenu> {
       child: ListView(
         children: [
           DrawerHeader(
-            child: Image.asset("assets/images/logo.png"),
+            child: Image.asset("assets/images/f9_logo_full_name.png"),
           ),
           ListTile(
             title: Text('Dashboard'),
