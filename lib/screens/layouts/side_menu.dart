@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 
 class SideMenu extends StatefulWidget {
   const SideMenu({
@@ -18,7 +19,10 @@ class _SideMenuState extends State<SideMenu> {
       child: ListView(
         children: [
           DrawerHeader(
-            child: Image.asset("assets/images/f9_tech_logo.png"),
+            child: SvgPicture.asset(
+              "assets/images/logo.svg",
+              width: 50,
+            ),
           ),
           ListTile(
             title: Text('Dashboard'),
@@ -202,9 +206,7 @@ class _SideMenuState extends State<SideMenu> {
                       ),
                       ListTile(
                         title: Text('Categories'),
-                        leading: Icon(
-                          Icons.account_tree
-                        ),
+                        leading: Icon(Icons.account_tree),
                         onTap: () {},
                       ),
                     ],

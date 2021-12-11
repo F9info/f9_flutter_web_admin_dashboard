@@ -18,6 +18,7 @@ class Header extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(15.0),
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             if (!Responsive.isDesktop(context))
               IconButton(
@@ -36,9 +37,6 @@ class Header extends StatelessWidget {
                     fontSize: 20,
                     fontWeight: FontWeight.bold),
               ),
-            if (!Responsive.isMobile(context))
-              Spacer(flex: Responsive.isDesktop(context) ? 2 : 1),
-            Expanded(child: SearchField()),
             ProfileCard()
           ],
         ),
